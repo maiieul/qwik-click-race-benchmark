@@ -2,12 +2,12 @@ packages:
   - .
   - apps/*
   - packages/*
-  - server
-  - adapters/*
 
 onlyBuiltDependencies:
-  - "@parcel/watcher"
+  - '@parcel/watcher'
+  - '@tailwindcss/oxide'
   - deasync
   - esbuild
   - sharp
+  - unrs-resolver
   - vercel
