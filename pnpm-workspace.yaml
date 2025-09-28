@@ -1,5 +1,12 @@
+packages:
+  - .
+  - apps/*
+  - packages/*
+  - server
+  - adapters/*
+
 onlyBuiltDependencies:
-  - '@parcel/watcher'
+  - "@parcel/watcher"
   - deasync
   - esbuild
   - sharp
