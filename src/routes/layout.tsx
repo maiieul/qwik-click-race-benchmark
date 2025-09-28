@@ -5,8 +5,8 @@ import {
   sync$,
   useOnDocument,
   useStyles$,
-} from "@builder.io/qwik";
-import { routeLoader$ } from "@builder.io/qwik-city";
+} from "@qwik.dev/core";
+import { routeLoader$ } from "@qwik.dev/router";
 
 import styles from "./styles.css?inline";
 
